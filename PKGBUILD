@@ -1,6 +1,6 @@
 # Maintainer: xsigil <xsigil@users.noreply.github.com>
 pkgname=epigraph-wall
-pkgver=1.0.0
+pkgver=1.0.1
 pkgrel=1
 pkgdesc="Epigraph Wall - Wall layout and document generation system"
 arch=('x86_64')
@@ -9,7 +9,7 @@ license=('MIT')
 depends=('glibc')
 makedepends=('go')
 source=("${pkgname}-${pkgver}.tar.gz::https://github.com/xsigil/${pkgname}/archive/refs/tags/v${pkgver}.tar.gz")
-sha256sums=('8067715e52b9d4cac744196102231d479a6288c8d444be41a0a91efedc10b3fb')
+sha256sums=('008791c847744f6597150bc0da9a8cb5c8a54ca2bab33b6b792d8bfdb4c1b319')
 
 prepare() {
     cd "${pkgname}-${pkgver}"
