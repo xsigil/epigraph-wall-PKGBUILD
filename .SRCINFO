@@ -1,0 +1,13 @@
+pkgbase = epigraph-wall
+	pkgdesc = Epigraph Wall - Wall layout and document generation system
+	pkgver = 1.0.2
+	pkgrel = 1
+	url = https://github.com/xsigil/epigraph-wall
+	arch = x86_64
+	license = MIT
+	makedepends = go
+	depends = glibc
+	source = epigraph-wall-1.0.2.tar.gz::https://github.com/xsigil/epigraph-wall/archive/refs/tags/v1.0.2.tar.gz
+	sha256sums = b5f1f9fa4b48a1dc3660b0521300f5e5d8e372a92242549c5f1acc734f94f665
+
+pkgname = epigraph-wall
